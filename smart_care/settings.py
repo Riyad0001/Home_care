@@ -29,6 +29,7 @@ SECRET_KEY = 'django-insecure-p$0aglsrj#a$@f=)(8k*pb4te_4)6!1*mi$wnitluf^a@%bk9m
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+ CSRF_TRUSTED_ORIGINS = ['https://home-care-3sw7.onrender.com']
 
 
 # Application definition
